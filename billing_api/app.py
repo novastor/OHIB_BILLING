@@ -23,7 +23,7 @@ def search_with_rag(input_text: str, chat_history: List[List[str]]):
     inputs are string pinecone index name for target and string prompt text
     output is generated response. 
     '''
-    input_return = input_text["text"]
+    input_text = input_text["text"]
     
     #add correct keys here
     api_key = os.getenv("OPENAI_API_KEY")
