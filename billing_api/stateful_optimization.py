@@ -14,8 +14,8 @@ def search_with_rag(input):
     '''
     chat_history = []
     index_name = "billing-codes"
-    api_key = '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'  
-    pc_key  = 'pcsk_321xz6_GZ7GkfHasMgmgw2Rc13HEezXzKBJqS13VEZGevovTzDhT4WLN21eYHrvPBovk9c'
+    api_key = 'OPENAI_API_KEY'  
+    pc_key  = 'PINECONE_API_KEY'
 
     embeddings = OpenAIEmbeddings(api_key=api_key)
 
